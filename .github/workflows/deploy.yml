@@ -49,8 +49,11 @@ jobs:
 
             cd /root/project/chatapp
 
+            echo "Pulling latest code..."
             git pull origin main
 
-            docker compose down -v
+            echo "Rebuilding and starting containers..."
+            docker compose up --build -d
 
-            docker compose up --build
+            echo "Current container status:"
+            docker compose ps
