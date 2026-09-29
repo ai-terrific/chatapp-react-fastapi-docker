@@ -1,0 +1,34 @@
+{
+  "name": "chatting-react-fastapi",
+  "version": "1.0.0",
+  "description": "Chatting app using React for frontend and FastAPI for backend",
+  "keywords": [
+    "chatting",
+    "chatapp",
+    "fastAPI",
+    "redis",
+    "postgresql",
+    "pub/sub",
+    "socketio"
+  ],
+  "homepage": "https://github.com/ai-terrific/chatapp-react-fastapi-docker#readme",
+  "bugs": {
+    "url": "https://github.com/ai-terrific/chatapp-react-fastapi-docker/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ai-terrific/chatapp-react-fastapi-docker.git"
+  },
+  "license": "MIT",
+  "author": "harry",
+  "type": "ts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky",
+    "typecheck:client": "cd client && npm run typecheck"
+  },
+  "devDependencies": {
+    "husky": "^9.1.7"
+  }
+}
